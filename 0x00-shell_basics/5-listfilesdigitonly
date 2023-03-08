@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -l -uid -a
+ls -la -n
