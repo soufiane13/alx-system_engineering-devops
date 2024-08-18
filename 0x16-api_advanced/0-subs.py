@@ -1,13 +1,13 @@
 #!/usr/bin/python3
 """
-    Uses Reddit API to print the number of subscribers of a subreddit
+    Reddit API to print the number of subscribers of a subreddit
 """
 import requests
 
 
 def number_of_subscribers(subreddit):
     """
-    Get the number of subscribers for a subreddit
+    Get the number of subscribers for subreddit
     """
     url = f"https://www.reddit.com/r/{subreddit}/about.json"
     headers = {'user-agent': 'request'}
